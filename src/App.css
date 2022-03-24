@@ -1,38 +1,51 @@
-.App {
+.score-data-container {
+  width: 60%;
+  margin: auto;
+  border: 2px solid rgb(0, 89, 255);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.country-score-card {
+  border: 14px solid rgb(187, 248, 46);
+  margin: 10px;
+  padding: 10px 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(86, 187, 226);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.person-data {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 6px;
+  
+}
+.person-score {
+  width: 50%;
+  text-align: end;
+  color: red;
+  font-weight: bold;
+  font-size: x-large;
 }
 
-.App-link {
-  color: #61dafb;
+.person-name {
+  width: 50%;
+  text-align: end;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  color: rgb(86, 187, 226);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card-info {
+border: 2px solid black;
+}
+
+hr{
+  width: 98%;
+  border: 0.1px solid black;
 }
