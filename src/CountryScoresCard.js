@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const CountryScoresCard = (props) => {
@@ -24,3 +23,4 @@ const CountryScoresCard = (props) => {
 };
 
 export default CountryScoresCard;
+
