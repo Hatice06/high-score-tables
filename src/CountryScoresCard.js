@@ -14,7 +14,6 @@ const CountryScoresCard = (props) => {
                 <span className="person-name">{person.n.toUpperCase()}</span>
                 <span className="person-score">{person.s}</span>
               </div>
-
               <hr />
             </div>
           ))}
