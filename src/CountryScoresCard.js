@@ -1,9 +1,10 @@
 import React from "react";
+import CountryCardHeader from "./CountryCardHeader";
 
 const CountryScoresCard = (props) => {
   return (
     <div className="country-score-card">
-      <p>HIGH SCORES: {props.country.name} </p>
+      <CountryCardHeader countryName={props.country.name}/>
       <div className="card-info">
         {props.country.scores.map((person) => (
           <div>
